@@ -16,7 +16,7 @@ and visit [localhost:8080](http://localhost:8080) in your browser
 # Using it
 Import it:
 
-    import "github.com/fjukstad/gographer"
+    import "github.com/raymondbernard/gographer"
 
 Using it:
 
