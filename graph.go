@@ -7,6 +7,7 @@ package gographer
 import (
 	"fmt"
 	"strconv"
+	"github.com/raymondbernard/gographer"
 )
 
 type NodeGraphics struct {

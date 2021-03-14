@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/fjukstad/gographer"
+	"github.com/raymondbernard/gographer"
 )
 
 // Make random changes to graph
@@ -48,7 +48,7 @@ func main() {
 	}
 
 	gopath := os.Getenv("GOPATH")
-	rootServeDir := gopath + "/src/github.com/fjukstad/gographer/root_serve_dir/"
+	rootServeDir := gopath + "/src/github.com/raymondbernard/gographer/root_serve_dir/"
 
 	go makeRandomChanges(g)
 
