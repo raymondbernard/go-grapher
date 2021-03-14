@@ -8,7 +8,7 @@ import (
 	"os"
 	"strconv"
 
-	"gographer-master/gowebsocket/gowebsocket"
+	"github.com/raymondbernard/gowebsocket"
 	"golang.org/x/net/websocket"
 )
 
