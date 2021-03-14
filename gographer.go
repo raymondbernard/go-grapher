@@ -8,7 +8,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/raymondbernard/websocket"
+	"github.com/raymondbernard/gowebsocket"
 	"golang.org/x/net/websocket"
 )
 
