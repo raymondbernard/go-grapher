@@ -2,7 +2,7 @@
 It is a fork from "github.com/fjukstad/gographer"
 
 
-fix various websocket issue. Now we using the standard lib websockets.   Note this is a work in progress and unstable.  We will be using the semantic version system.  Once it hits v 1.0 consider it stable and production ready. Our goal is to use this repo to build out a richer set of visualazions based on d3js.
+Fix various websocket issues. Now we using the standard lib websockets.  Note this is a work in progress and unstable.  We will be using the semantic version system.  Once it hits v 1.0 consider it stable and production ready. Our goal is to use this repo to build out a richer set of visualazions based on d3js and then produce a scalable graph db using go. 
 
 Simple graph package for go. Uses [d3js](https://github.com/mbostock/d3) for visualization and websockets for communication. 
 
