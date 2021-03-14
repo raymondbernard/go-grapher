@@ -185,7 +185,7 @@ func (g *Graph) DumpJSON(filename string) {
 
 func (g *Graph) Visualize() {
 	gopath := os.Getenv("GOPATH")
-	rootServeDir := gopath + "/src/github.com/fjukstad/gographer/root_serve_dir/"
+	rootServeDir := gopath + "/src/github.com/raymondbernard/gographer/root_serve_dir/"
 	port := ":8080"
 	log.Println("Graph created, go visit at localhost" + port)
 	panic(http.ListenAndServe(port, http.FileServer(http.Dir(rootServeDir))))
