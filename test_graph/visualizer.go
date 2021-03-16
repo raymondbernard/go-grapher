@@ -1,3 +1,4 @@
+// This package will generate a graph and randomly update it.
 package main
 
 import (

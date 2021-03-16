@@ -1,11 +1,7 @@
-// This program is a fork from XXXX!
-//  We have updated the websocket compents.
-// Consolidated founctions into a single golang package.
-// This is brougth to you by Ray Bernard
+// The package creates a sample graph of two nodes
 package main
 
 import (
-	// "fmt"
 	"os"
 	"log"
 	"net/http"
@@ -15,6 +11,7 @@ import (
 
 
 func main() {
+	// make sure you set you export your gopath! 
 	gopath := os.Getenv("GOPATH")
 
 	graph := gographer.NewG()

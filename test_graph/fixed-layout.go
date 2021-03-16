@@ -1,3 +1,5 @@
+//Fixed package is an example of a fixed layout.  
+// Once the graph is created it stays fixed after a few seconds.
 package main
 
 import (
