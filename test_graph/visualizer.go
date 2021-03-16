@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/raymondbernard/gographer"
+	"github.com/raymondbernard/go-grapher/gographer"
 )
 
 // Make random changes to graph
@@ -37,7 +37,7 @@ func makeRandomChanges(g *gographer.Graph) {
 }
 
 func main() {
-	g := gographer.New()
+	g := gographer.NewG()
 
 	rand.Seed(time.Now().UTC().UnixNano())
 	numNodes := 50
@@ -48,7 +48,7 @@ func main() {
 	}
 
 	gopath := os.Getenv("GOPATH")
-	rootServeDir := gopath + "/src/github.com/raymondbernard/gographer/root_serve_dir/"
+	rootServeDir := gopath + "/src/github.com/raymondbernard/go-grapher/root_serve_dir/"
 
 	go makeRandomChanges(g)
 

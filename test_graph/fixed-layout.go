@@ -9,12 +9,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/raymondbernard/websocket"
+	"github.com/raymondbernard/go-grapher/gographer"
 
 )
 
 func main() {
-	g := gographer.New()
+	g := gographer.NewG()
 
 	rand.Seed(time.Now().UTC().UnixNano())
 	numNodes := 50
@@ -40,7 +40,7 @@ func main() {
 	}
 
 	gopath := os.Getenv("GOPATH")
-	rootServeDir := gopath + "/src/github.com/fjukstad/gographer/root_serve_dir/"
+	rootServeDir := gopath + "/src/github.com/raymondbernard/go-grapher/root_serve_dir/"
 
 	log.Println("Graph created, go visit at localhost:8080")
 
