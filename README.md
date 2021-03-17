@@ -1,12 +1,12 @@
 # gographer
 It is a fork from "github.com/fjukstad/gographer"
 
-IMPORTANT -- This repo is under active developement and should not be used in production until we acheive 1.0.0 .
-Our initial release is 0.1.0
+IMPORTANT -- This repo is under active developement and should not be used in production until we acheive v1.0.0 
+Our initial release is 0.1.0 which is unstable at best. 
 https://semver.org/
 
 
-Fixed various websocket issues. Now we using the standard lib websockets.  Note this is a work in progress and unstable.  We will be using the semantic version system.  Once it hits v 1.0 consider it stable and production ready. Our goal is to use this repo to build out a richer set of visualazions based on d3js and then produce a scalable graph db using go. 
+Fixed various websocket issues. Now we using the standard lib websockets.   We will be using the semantic version system.  Once it hits v 1.0 consider it stable and production ready. Our goal is to use this repo to build out a richer set of visualazions based on d3js and then produce a scalable graph db using go. 
 
 Simple graph package for go. Uses [d3js](https://github.com/mbostock/d3) for visualization and websockets for communication. 
 
@@ -25,9 +25,9 @@ Import it:
 Using it:
 
     graph = gographer.New();
-    // (ID, NodeStringID, GroupName, Size)
-    graph.AddNode( 1, "NodeStringID", "GroupName", 1 )
-    graph.AddNode( 2, "NodeStringID", "GroupName", 1 )
+    // (ID, NodeText, GroupID, Size)
+    graph.AddNode( 1, "Node Text blah", "1234", 1 )
+    graph.AddNode( 2, "Node Text blah 2", "1234", 1 )
 
     // (Source, Target, EdgeID, weight )
     grap.AddEdge( 1, 2, 0, 1 )
