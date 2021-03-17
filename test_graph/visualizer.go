@@ -47,9 +47,8 @@ func main() {
 		g.AddNode(id, "node "+strconv.Itoa(id), id, 1)
 		g.AddEdge(id, rand.Intn(numNodes), id, 1)
 	}
-
-	gopath := os.Getenv("GOPATH")
-	rootServeDir := gopath + "/src/github.com/raymondbernard/go-grapher/root_serve_dir/"
+	// Make sure you have have root_server_dir in your root directory 
+	rootServeDir :=  "root_serve_dir"
 
 	go makeRandomChanges(g)
 
