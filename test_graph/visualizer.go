@@ -49,7 +49,7 @@ func main() {
 	}
 
 	gopath := os.Getenv("GOPATH")
-	rootServeDir := gopath + "/src/github.com/raymondbernard/go-grapher/root_serve_dir/"
+	rootServeDir := gopath + "/src/github.com/raymondbernard/go-grapher@v0.1.0/root_serve_dir/"
 
 	go makeRandomChanges(g)
 

@@ -15,7 +15,7 @@ func main() {
 	gopath := os.Getenv("GOPATH")
 
 	graph := gographer.NewG()
-	rootServeDir := gopath + "/src/github.com/raymondbernard/go-grapher/root_serve_dir"
+	rootServeDir := gopath + "/src/github.com/raymondbernard/go-grapher@v0.1.0/root_serve_dir/"
 
 	// (ID, NodeStringID, GroupName, Size)
 	graph.AddNode(1, "NodeStringID", 100, 1)
