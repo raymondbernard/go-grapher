@@ -2,6 +2,7 @@
 package main
 
 import (
+	"fmt"
 	"os"
 	"log"
 	"net/http"
@@ -15,9 +16,11 @@ func main() {
 	gopath := os.Getenv("GOPATH")
 
 	graph := gographer.NewG()
-	rootServeDir := gopath + "/src/github.com/raymondbernard/go-grapher@v0.1.0/root_serve_dir/"
+	rootServeDir := gopath + "/pkg/mod/github.com/raymondbernard/go-grapher@v0.1.0/root_serve_dir/"
 
-	// (ID, NodeStringID, GroupName, Size)
+	fmt.Println(rootServeDir)
+
+	// (ID, NodeStringID, GroupID, Size)
 	graph.AddNode(1, "NodeStringID", 100, 1)
 	graph.AddNode(2, "NodeStringID", 100, 1)
 
