@@ -83,7 +83,7 @@ func main() {
     gopath + "/pkg/mod/github.com/raymondbernard/go-grapher@v0.1.0/"
 
 
-### Sample vizualization 
+### Sample vizualization Tests
 
 - test_graph/visualizer.go contains source code to host the visualizations.  They are polulated automatically. 
 - test_graph/graphtest.go  contains source code to host the visualizations. This is the sample file which creates two nodes.
@@ -91,12 +91,14 @@ func main() {
 The d3 graph stops moving after a sec or two. 
 
 
-# Run the test visualization
+# How to run a graph test
 
-    go run test_graph/visualization.go
+go run  <your gopath>/pkg/mod/github.com/raymondbernard/go-grapher@v0.1.0/test_graph/visualization.go
+or better yet copy the contents of the test_graph into your local test folder of your go project. 
     
-and visit [localhost:8080](http://localhost:8080) in your browser 
+Make sure you are not already runing a process on port 8080 or 3999 (this one is reserved for our websocket communications)
 
+Then visit [localhost:8080](http://localhost:8080) in your browser :) 
 
 
 ### Core Lib
