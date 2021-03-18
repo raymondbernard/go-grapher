@@ -8,6 +8,7 @@ https://semver.org/
 
 This package is a fork from "github.com/fjukstad/gographer"
 
+
 We Fixed various websocket issues. We using the standard lib websockets. 
 We have consolidated all relavant methods into on file.
 Once it hits v 1.0 consider it stable and production ready. Our goal is to use this repo to build out a richer set of visualazions based on d3js and then produce a scalable graph db using go. 
@@ -62,18 +63,18 @@ func main() {
 
 ```
 
-## Run the two command in your project.
+## Step 3) Run the two command in your project.
 
 ```cmd:
 
     go mod init 
 
     go mod tidy
-    
+
 ```
 
 
-## 5) Open browser: 
+## 4) Open browser: 
 
     Open [localhost:8080](http://localhost:8080) in a webbrowser to view the graph.
 
@@ -81,7 +82,7 @@ func main() {
     Modify the d3js implementation and visualization to your preferences.
 
 
-## Files: 
+## Package File location: 
     All files for our pkgs are kept below
     gopath + "/pkg/mod/github.com/raymondbernard/go-grapher@v0.1.0/"
 
