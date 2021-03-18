@@ -9,9 +9,11 @@ https://semver.org/
 This package is a fork from "github.com/fjukstad/gographer"
 
 
-We Fixed various websocket issues. We using the standard lib websockets. 
-We have consolidated all relavant methods into on file.
-Once it hits v 1.0 consider it stable and production ready. Our goal is to use this repo to build out a richer set of visualazions based on d3js and then produce a scalable graph db using go. 
+We Fixed various websocket issues. The default is golang's standard lib websockets. 
+Also all relavant methods have been consolidated into one file.
+Once it hits v 1.0 consider it stable and production ready. 
+Our goal is to use this repo to build out a richer set of visualazions based on d3js 
+and then produce a scalable graph db using go. 
 
 # Run the test visualization
 
