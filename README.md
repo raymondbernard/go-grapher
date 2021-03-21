@@ -1,6 +1,10 @@
 # gographer
 Simple graph package for go. Uses [d3js](https://github.com/mbostock/d3) for visualization and websockets for communication. 
 
+![Go-Gopher image](https://github.com/raymondbernard/go-grapher/blob/main/go-grapher-github-banner.png)
+*Gopher image by [Renee French][rf], licensed under [Creative Commons 3.0 Attributions license][cc3-by].*
+
+
 IMPORTANT -- This repo is under active developement and should not be used in production until we acheive v1.0.0 
 Our initial release is 0.1.0 which is unstable at best. 
 https://semver.org/
