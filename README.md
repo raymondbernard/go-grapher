@@ -1,5 +1,5 @@
 # gographer
-Simple graph package for go. Uses [d3js](https://github.com/mbostock/d3) for visualization and websockets for communication. 
+Simple graph package for go. Uses [d3.js](https://github.com/mbostock/d3) for visualization and websockets for communication. 
 
 ![Go-Gopher image](https://github.com/raymondbernard/go-grapher/blob/main/go-grapher-github-banner.png)
 *Gopher image by [Renee French][rf], licensed under [Creative Commons 3.0 Attributions license][cc3-by].*
@@ -20,7 +20,7 @@ Our goal is to use this repo to build out a richer set of visualazions based on 
 and then produce a scalable graph db using go. 
 
 # Using it:
-## Step 1) create a goland project.
+## Step 1) create a golang project.
 ## Step 2) copy the below file into the root and call it main.go
 
 ```golang:
