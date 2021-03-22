@@ -1,7 +1,7 @@
 # gographer
 Simple graph package for go. Uses [d3.js](https://github.com/mbostock/d3) for visualization and websockets for communication. 
 
-![Go-Gopher image](https://github.com/raymondbernard/go-grapher/blob/main/go-grapher-github-banner.png)
+![Go-Gopher image](https://raw.githubusercontent.com/raymondbernard/go-grapher/main/go-grapher-github-banner.png)
 *Gopher image by [Renee French][rf], licensed under [Creative Commons 3.0 Attributions license][cc3-by].*
 
 
@@ -63,7 +63,7 @@ func main() {
 
 ```
 
-## Step 3) Run the two command golang commands in your project's root.
+## Step 3) Run the two golang commands in your project's root.
 
 ```cmd:
 
